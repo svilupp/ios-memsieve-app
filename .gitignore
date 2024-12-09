@@ -1,0 +1,77 @@
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+### Xcode ###
+## User settings
+xcuserdata/
+
+## Xcode 8 and earlier
+*.xcscmblueprint
+*.xccheckout
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+### Swift ###
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+.swiftpm
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+iOSInjectionProject/
+
+# MemSieve
+MemSieve.xcodeproj/
+MemSieve/Config.swift

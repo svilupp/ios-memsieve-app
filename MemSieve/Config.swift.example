@@ -1,0 +1,5 @@
+enum Config {
+    // Add your OpenAI API key here
+    // Get one from: https://platform.openai.com/api-keys
+    static let openAIKey = "API_KEY_HERE"
+}
